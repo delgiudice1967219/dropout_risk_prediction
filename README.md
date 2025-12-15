@@ -2,14 +2,14 @@
 
 This project aims to predict the risk of student dropout using various demographic, environmental, and behavioral factors. It leverages machine learning techniques to identify at-risk students, enabling targeted interventions.
 
-## 📌 Usage
+## Usage
 To run the analysis, execute the Jupyter Notebook `main.ipynb`. Ensure all dependencies are installed.
 
 ```bash
 pip install pandas numpy shap pyreadstat matplotlib xgboost imbalanced-learn scikit-learn
 ```
 
-## 📊 Process Overview
+## Process Overview
 
 ### 1. Data Ingestion
 *   **Source**: The dataset is loaded from an SPSS file (`37816-0001-Data.sav`).
@@ -46,7 +46,7 @@ pip install pandas numpy shap pyreadstat matplotlib xgboost imbalanced-learn sci
 *   **Feature Importance**: Global feature importance is visualized to understand which factors contribute most to the model's decisions.
 *   **SHAP Values**: SHAP (SHapley Additive exPlanations) summary plots are used to interpret the impact of each feature on the prediction (e.g., how drug exposure or low grades increase dropout risk).
 
-## 🛠 Dependencies
+## Dependencies
 *   `pandas` & `numpy`: Data manipulation.
 *   `matplotlib`: Data visualization.
 *   `sklearn`: Preprocessing, model selection, and metrics.
